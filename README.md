@@ -28,15 +28,15 @@ LANGKAH 6 : Tambahkan widget di main.dart
 
 TUGAS PRAKTIKUM
 
-- Jelaskan maksud dari langkah 2 pada praktikum tersebut!
+2) Jelaskan maksud dari langkah 2 pada praktikum tersebut!
   
   langkah tersebut bertujuan untuk menambahkan plugin auto_size_text ke proyek Flutter dengan perintah flutter pub add auto_size_text pada terminal. Ini mengintegrasikan library ke pubspec.yaml agar widget AutoSizeText dapat menampilkan teks dengan ukuran font yang menyesuaikan secara otomatis.
 
-- Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+3) Jelaskan maksud dari langkah 5 pada praktikum tersebut!
 
   Langkah tersebut bertujuan untuk menambahkan variabel final String text; dan parameter required this.text di construktor. Memungkinkan widget menerima dan menampilkan teks secara dinamis, memperbaiki error pada langkah 4, dan mendukung penggunaan teks di AutoSizeText.
 
-- Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+4) Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
 
   Container dengan RedTextWidget:
   Fungsi: Menampilkan teks dengan AutoSizeText, menyesuaikan ukuran font otomatis dalam Container berwarna kuning, dengan style merah, max 2 baris. Karakteristik: Fleksibel untuk ruang terbatas karena penyesuaian font.
@@ -46,7 +46,7 @@ TUGAS PRAKTIKUM
 
   Perbedaan: RedTextWidget menggunakan AutoSizeText untuk menyesuaikan font secara dinamis dan memiliki gaya khusus (merah), sedangkan Text menggunakan gaya default tanpa penyesuaian font.
 
-- Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
+5) Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
 
   Berdasarkan dokumentasi di tautan https://pub.dev/documentation/auto_size_text/latest/, berikut penjelasanya:
 
@@ -59,7 +59,7 @@ TUGAS PRAKTIKUM
   - style
   Deskripsi: Jika tidak null, gaya teks akan digunakan untuk widget ini. Penjelasan: Menentukan properti teks seperti warna, font, dll., meskipun ukuran font akan diatur ulang oleh auto-sizing.
 
- - minFontSize
+  - minFontSize
   Deskripsi: Ukuran font minimum yang akan digunakan saat teks di-auto-sizing, diabaikan jika presetFontSizes diset. Penjelasan: Menetapkan batas bawah ukuran font agar teks tetap terbaca meskipun harus mengecil.
 
   - maxFontSize
