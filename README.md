@@ -1,22 +1,29 @@
 JOBSHEET 6 - FLUTTER 3
 
-LANGKAH 1 : Mmebuat project flutter baru
+LANGKAH 1 : Membuat project flutter baru
 
 LANGKAH 2 : Menambahkan Plugin
+
 <img width="714" height="334" alt="image" src="https://github.com/user-attachments/assets/a6095644-9495-4985-97b3-cc60afbf7e88" />
+
 <img width="706" height="275" alt="image" src="https://github.com/user-attachments/assets/93c4c50b-b72d-4069-b34d-ae75bc21c385" />
 
 LANGKAH 3 : Buat file red_text_widget.dart
+
 <img width="635" height="293" alt="image" src="https://github.com/user-attachments/assets/240013f9-944f-498a-beb0-ae7dbcfe3c74" />
 
 LANGKAH 4 : Tambah Widget AutoSizeText
+
 <img width="642" height="351" alt="image" src="https://github.com/user-attachments/assets/34ee24d6-a2fa-46a9-8d4e-4b43e6b8100d" />
+
 Terjadi error karena belum melakukan import package auto_size_text dan tidak ada deklarasi pada variable text
 
 LANGKAH 5 : Buat Variabel text dan parameter di constructor
+
 <img width="786" height="376" alt="image" src="https://github.com/user-attachments/assets/08f5efb4-7add-47b0-9085-7f66369f01b1" />
 
 LANGKAH 6 : Tambahkan widget di main.dart
+
 <img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/7ebed297-6a84-479f-9b8e-c0d1ab24914b" />
 
 TUGAS PRAKTIKUM
